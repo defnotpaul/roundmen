@@ -1,7 +1,7 @@
 set :application, "roundmen"
 set :sys_user, 'ubuntu'
 set :user, 'deploy'
-ssh_options[:keys] = ["~/code/chef/mummifyus/chef/keys/MyKeys.pem"]
+ssh_options[:keys] = ["~/.aws/keys.pem"]
 
 set :scm, :git
 set :repository, 'git@github.com:mummifyus/roundmen.git'
