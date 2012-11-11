@@ -1,0 +1,5 @@
+{ 
+   "ipaddress": "localhost", 
+   "port":      2222, 
+   "user":      "vagrant",
+}
